@@ -1,0 +1,37 @@
+/*
+MY COLOR PALETTE
+Color 1 - #095256
+Color 2 - #087f8c
+Color 3 - #5aaa95
+Color 4 - #86a873
+Color 5 - #bb9f06
+*/
+
+body {
+    background-color: #86a873;
+    color: #095256;
+}
+
+button {
+    background-color: #095256;
+    font-family: "Cambria", "Cochin", "Georgia", "Times";
+    color: #bb9f06;
+    width: 200px;
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #087f8c;
+}
+
+h1 {
+    font-family: "Gelasio", serif;
+}
+
+h2 {
+    font-family: "Brygada 1918", serif;
+}
