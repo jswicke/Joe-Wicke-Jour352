@@ -13,6 +13,7 @@ body {
 }
 
 button {
+    align-content: center;
     background-color: #095256;
     font-family: "Cambria", "Cochin", "Georgia", "Times";
     color: #bb9f06;
