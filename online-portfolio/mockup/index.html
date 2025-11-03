@@ -4,20 +4,122 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <title>Title</title>
+        <title>Joe Wicke Portfolio</title>
 
         <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
             rel="stylesheet"
-            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
             crossorigin="anonymous" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap"
+            rel="stylesheet" />
+
         <link href="style.css" rel="stylesheet" />
     </head>
 
     <body>
-        <img src="Joe-Wicke.jpg" />
-        <h1>Joe Wicke</h1>
-        <h2>Diversions Editor, The Diamondback</h2>
-        <button>Contact me!</button>
+        <div class="container-fluid" id="main-page-info">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="Joe-Wicke.jpg" id="headshot" />
+                </div>
+
+                <div class="col-sm-6" id="name-title">
+                    <div class="rectangle"></div>
+                    <h1>Joe Wicke</h1>
+                    <h2>Diversions Editor, The Diamondback</h2>
+                    <button id="button"><a href="mailto:jswicke@terpmail.umd.edu">Contact me!</a></button>
+                    <div class="rectangle"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="navigation">
+            <div class="row">
+                <div class="col-sm-4" nav>
+                    <h3 id="experience"><a href="#experience-section">Experience</a></h3>
+                </div>
+                <div class="col-sm-4" nav>
+                    <h3 id="skills"><a href="#skills-section">Skills</a></h3>
+                </div>
+                <div class="col-sm-4" nav>
+                    <h3 id="education"><a href="#education-section">Education</a></h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="experience-section">
+            <div class="row">
+                <div class="col-sm-4" id="dbk">
+                    <p><strong>The Diamondback</strong></p>
+                    <p><em>Editor, March 2025-Present</em></p>
+                    <p>
+                        I oversee the operations of the diversions desk, covering arts & culture stories, managing a
+                        team of small writers, editing stories and publishing them through WordPress.
+                    </p>
+                    <p><em>Staff Writer, August 2024-March 2025</em></p>
+
+                    <p>
+                        I wrote under the Diversions desk, covering arts & culture events on the University of
+                        Maryland’s campus, reviewing new releases of albums and TV shows, and commentating on current
+                        pop culture events.
+                    </p>
+                </div>
+                <div class="col-sm-4" id="exp-title">
+                    <h4>Experience</h4>
+                </div>
+                <div class="col-sm-4" id="sbs">
+                    <p>Stories Beneath the Shell</p>
+                    <p><em>Copy Editor, August 2025-Present</em></p>
+                    <p>
+                        I oversee 2-3 news, feature, and/or multimedia stories per week, ensuring that the stories
+                        adhered to AP Style and proper grammar, as well as fact-checking each claim.
+                    </p>
+                    <p><em>Staff writer, March 2024-May 2024</em></p>
+                    <p>March 2024-May 2024</p>
+                    <p>
+                        I reported, wrote, and photographed for the Features desk, producing weekly articles on campus
+                        events at the University of Maryland.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="skills-section">
+            <div class="row">
+                <div class="col-sm-6" id="skills-title">
+                    <h5>Skills</h5>
+                </div>
+                <div class="col-sm-6" id="skills-list">
+                    <ul>
+                        <li>Social media management</li>
+                        <li>Video/Audio Editing</li>
+                        <li>Photography/Videography</li>
+                        <li>WordPress</li>
+                        <li>Newsletters</li>
+                        <li>AP Style</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid" id="education-section">
+            <div class="row">
+                <div class="col-sm-6" id="education-info">
+                    <h6>Philip Merrill College of Journalism</h6>
+                    <h6>University of Maryland</h6>
+                    <h6>Degree: Journalism B.A.</h6>
+                    <h6>August 2023-May 2027</h6>
+                </div>
+
+                <div class="col-sm-6" id="education-title">
+                    <h5>Education</h5>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
