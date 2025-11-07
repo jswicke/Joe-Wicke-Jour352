@@ -1,0 +1,206 @@
+h1 {
+    font-family: Gelasio;
+    color: #86a873;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: Brygada;
+    font-size: 25px;
+    color: #bb9f06;
+}
+
+@media {
+    h2 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 576px) {
+    h1 {
+        margin-left: 50px;
+    }
+    h2 {
+        font-size: 26px;
+        margin-left: 50px;
+    }
+    button {
+        margin-left: 43px;
+    }
+    h7{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 38px;
+    }
+    h7{
+        font-size:14px
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 65px;
+    }
+    h2 {
+        font-size: 38px;
+    }
+    h7{
+        font-size: 16px
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 72px;
+    }
+    h2 {
+        font-size: 60px;
+    }
+    h7 {
+    font-size: 23px;
+}
+}
+
+h3 {
+    font-family: Brygada;
+    font-size: 40px;
+}
+
+h4 {
+    font-family: Gelasio;
+    color: #86a873;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h5 {
+    font-family: Gelasio;
+    color: #095256;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h6 {
+    font-family: Brygada;
+    font-size: 30px;
+    margin: 30px;
+}
+
+h7{
+    font-family: Brygada;
+    color: #bb9f06;
+}
+
+button {
+    background-color: #5aaa95;
+    font-family: Gelasio;
+    color: #bb9f06;
+    width: 200px;
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #087f8c;
+}
+
+#name-title {
+    margin-top: 40px;
+}
+
+#main-page-info {
+    background-color: #095256;
+}
+
+#navigation {
+    background-color: #86a873;
+}
+
+.nav a {
+    color: #095256;
+}
+
+#footer {
+    background-color: #86a873;
+}
+
+#headshot {
+    width: 300px;
+    padding: 0;
+    margin: 20px 40px 20px 40px;
+    border-radius: 20px;
+}
+
+#exp-title {
+    align-content: center;
+    text-align: center;
+    background-color: #095256;
+}
+
+#dbk {
+    background-color: #86a873;
+}
+
+#sbs {
+    background-color: #86a873;
+}
+
+#skills-title {
+    background-color: #5aaa95;
+    align-content: center;
+    text-align: center;
+    font-family: Brygada;
+}
+
+#skills-list {
+    background-color: #095256;
+    font-family: Brygada;
+    font-size: 30px;
+}
+
+li {
+    color: #5aaa95;
+}
+
+p {
+    color: #095256;
+    font-family: Brygada;
+    font-size: 25px;
+}
+
+#education-info {
+    background-color: #095256;
+    font-family: Brygada;
+    color: #5aaa95;
+}
+
+#education-title {
+    background-color: #5aaa95;
+    align-content: center;
+    text-align: center;
+}
+
+.rectangle {
+    height: 10px;
+    width: 170px;
+    margin-left: 55px;
+    background-color: #bb9f06;
+}
+
+footer{
+    font-family: Brygada;
+    color: #bb9f06;
+    
+}
