@@ -2,83 +2,95 @@
  * Gray-orange: #a66940
 */
 
-img {
-    width: 100%;
-}
+@media screen {
+    img {
+        width: 100%;
+    }
 
-#topper {
-    background-color: #a66940;
-}
+    #topper {
+        background-color: #a66940;
+    }
 
-#imgcol {
-    background-image: url(curlew.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
+    #imgcol {
+        background-image: url(curlew.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
 
-#headline {
-    font-family: "Goudy Bookletter 1911", serif;
-    font-weight: 400;
-    color: white;
-    text-align: center;
-    padding: 40px;
-    margin-top: 20px;
-    font-size: 55px;
-}
+    #headline {
+        font-family: "Goudy Bookletter 1911", serif;
+        font-weight: 400;
+        color: white;
+        text-align: center;
+        padding: 40px;
+        margin-top: 20px;
+        font-size: 55px;
+    }
 
-#caption {
-    font-family: "Lato", sans-serif;
-    text-align: center;
-    align-content: center;
-    color: white;
-    padding: 50px;
-    font-size: 30px;
-}
+    #caption {
+        font-family: "Lato", sans-serif;
+        text-align: center;
+        align-content: center;
+        color: white;
+        padding: 50px;
+        font-size: 30px;
+    }
 
-#byline {
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    text-align: center;
-    align-content: center;
-    color: white;
-    font-size: 20px;
-}
+    #byline {
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        text-align: center;
+        align-content: center;
+        color: white;
+        font-size: 20px;
+    }
 
-#dateline {
-    font-family: "Lato", sans-serif;
-    text-align: center;
-    align-content: center;
-    color: white;
-    font-size: 20px;
-}
+    #dateline {
+        font-family: "Lato", sans-serif;
+        text-align: center;
+        align-content: center;
+        color: white;
+        font-size: 20px;
+    }
 
-p {
-    font-family: "Quicksand", sans-serif;
-    font-size: 20px;
-    margin: 45px;
-}
+    p {
+        font-family: "Quicksand", sans-serif;
+        font-size: 20px;
+        margin: 45px;
+    }
 
-#gallery1 {
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+    #gallery1 {
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-#gallery2 {
-    width: 36%;
-    float: left;
-    margin-top: 10px;
-}
+    #gallery2 {
+        width: 36%;
+        float: left;
+        margin-top: 10px;
+    }
 
-#gallery3 {
-    width: 30%;
-    margin-top: 10px;
-}
+    #gallery3 {
+        width: 30%;
+        margin-top: 10px;
+    }
 
-#gallery4 {
-    width: 34%;
-    float: right;
-    margin-top: 30px;
+    #gallery4 {
+        width: 34%;
+        float: right;
+        margin-top: 30px;
+    }
+
+    h5 {
+        background-color: #a66940;
+        border-radius: 35px;
+        font-family: "Goudy Bookletter 1911", serif;
+        font-size: 50px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+    }
 }
