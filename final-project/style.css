@@ -9,10 +9,11 @@
 
     #topper {
         background-color: #a66940;
+        margin-bottom: 30px;
     }
 
     #imgcol {
-        background-image: url(curlew.jpg);
+        background-image: url(header-image.jpg);
         background-size: cover;
         background-position: center;
         height: 100vh;
@@ -29,16 +30,16 @@
     }
 
     #caption {
-        font-family: "Lato", sans-serif;
+        font-family: "Quicksand", sans-serif;
         text-align: center;
         align-content: center;
         color: white;
         padding: 50px;
-        font-size: 30px;
+        font-size: 23px;
     }
 
     #byline {
-        font-family: "Lato", sans-serif;
+        font-family: "Quicksand", sans-serif;
         font-weight: 700;
         text-align: center;
         align-content: center;
@@ -47,7 +48,7 @@
     }
 
     #dateline {
-        font-family: "Lato", sans-serif;
+        font-family: "Quicksand", sans-serif;
         text-align: center;
         align-content: center;
         color: white;
@@ -57,40 +58,139 @@
     p {
         font-family: "Quicksand", sans-serif;
         font-size: 20px;
-        margin: 45px;
-    }
-
-    #gallery1 {
-        width: 50%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #gallery2 {
-        width: 36%;
-        float: left;
-        margin-top: 10px;
-    }
-
-    #gallery3 {
-        width: 30%;
-        margin-top: 10px;
-    }
-
-    #gallery4 {
-        width: 34%;
-        float: right;
-        margin-top: 30px;
     }
 
     h5 {
         background-color: #a66940;
-        border-radius: 35px;
+        border-radius: 15px;
         font-family: "Goudy Bookletter 1911", serif;
         font-size: 50px;
-        font-weight: 700;
+        font-weight: 500;
         color: white;
         text-align: center;
+    }
+
+    .attribution {
+        font-family: "Goudy Bookletter 1911", serif;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .body-text {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    a {
+        color: #a66940;
+        text-decoration: none;
+    }
+
+    .flourish-chart {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    h6 {
+        float: right;
+        margin-right: 20px;
+    }
+
+    footer {
+        color: white;
+        align-content: bottom;
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 576px) {
+    .body-text {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .pull-quote {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .flourish-chart {
+        padding-left: 300px;
+        padding-right: 300px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        align-content: center;
+    }
+}
+
+@media {
+    .pull-quote {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    h5 {
+        font-size: 27px;
+    }
+
+    .body-text {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .attribution {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    h6 {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .body-text {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    .pull-quote {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    h5 {
+        font-size: 40px;
+    }
+
+    .attribution {
+        font-size: 25px;
+    }
+
+    .flourish-embed {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .flourish-chart {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    #map {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    h6 {
+        padding-left: 200px;
+        padding-right: 200px;
     }
 }
